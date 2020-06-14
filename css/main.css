@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'Magnolia-Script';
+	src: url('../fonts/magnolia-script.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/magnolia-script.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/magnolia-script.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/magnolia-script.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/magnolia-script.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/magnolia-script.svg#magnolia-script') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Magnolia-Script';
+    color: #380600;
+    overflow-x: hidden;
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.header ul li{
+    list-style: none;
+    font-size: 17px;
+
+}
+.header{
+    vertical-align: middle;
+
+}
+.footer{
+    margin-top: 100px;
+}
+.phone{
+text-align: center;
+}
+.phone p{
+    margin-bottom: 0;
+}
+.mail{
+    color:#959595;
+    text-decoration-line: underline;
+}
+.picker_icecream p{
+    transform: rotate(-40deg);
+    margin: -69px 0 0 71px;
+    width: 100%;
+}
+.picker_icecream img{
+    width: 156px;
+    height:117px ;
+}
+.jo{
+    margin: 92px 0 0 -14px;
+}
+.ob1{
+    margin: 92px 0 0 12px;
+}
+.ob2{
+    margin: 62px 0 0 0;
+}
+.product{
+    width: 460px;
+    margin: 27px 0 0 -37px;
+}
+.partn{
+    width: 394px;
+    margin: -39px 0 0 0;
+}
+.assort{
+    width: 360px;
+    margin-top: 34px;
+}
+.girl{
+    margin: -198px 0 0 154px;
+}
+.boy{
+    width: 500px;
+    margin: -86px 0 -63px -81px;
+}
